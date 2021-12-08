@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    height: 100%;
+    width: 465px;
+  }
+  
+  .box {
+    color: #4a1b4d;
+    font-size: 2.8rem;
+    font-weight: bold;
+    padding: 30px 30px 20px;
+    text-align: center;
+    line-height: 45px;
+  }
+  
+  
+  .box-footer {
+    color: #918e92;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 10px 30px 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  .ratings {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 55px;
+    background-color: #f7f2f8;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    font-weight: bold;
+    color: #493548;
+    font-size: 1rem;
+  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+    margin: 30px 0;
+  }
+  
+  .card {
+    width: 450px;
+    height: 320px;
+    background-color: #491b48;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 45px;
+      
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .card-image {
+    width: 90px;
+    border-radius: 50%;
+    width: 60px;
+  }
+  
+  .user-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #fff2ff;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 30px;
+  }
+  
+  .user-info {
+    color: #af6b9a;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 30px;
+    text-shadow: #cf4aa6 0 0 1px;
+  }
+
+  .card-user-details {
+    color: #e2c3e2;
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 10px;
+  }
